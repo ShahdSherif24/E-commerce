@@ -2,7 +2,7 @@ import axios from 'axios';
 import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
-import Loading from '../Loading/LOading';
+
 // import Subcategories from '../Subcategories/Subcategories';
  
 
@@ -38,7 +38,7 @@ export default function CategoriesSection() {
     <div className='mt-24 text-center'>
       {loading ? (
         <div className='flex justify-center items-center min-h-screen'>
-         <Loading/>
+         
         </div>
       ) : (
         <>
