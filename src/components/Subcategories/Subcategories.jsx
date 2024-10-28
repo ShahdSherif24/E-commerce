@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { useEffect } from 'react';
-import Loading from '../Loading/LOading';
+
 
 export default function Subcategories({ id ,name }) {
 
@@ -31,7 +31,7 @@ export default function Subcategories({ id ,name }) {
     <h1 className='text-4xl text-green-600 mb-10 font-bold'>{name} Subcategories</h1>
       {isLoading ? (
         <div className='flex justify-center items-center min-h-screen'>
-          <Loading/>
+          
         </div>
       ) : (
         <div className='flex justify-center items-center'> 

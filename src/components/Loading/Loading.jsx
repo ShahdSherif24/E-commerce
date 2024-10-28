@@ -9,7 +9,7 @@ export default function Loading() {
                 visible={true}
                 height="96"
                 width="96"
-                color="grey"
+                color="grey"npm install react-loader-spinner
                 strokeWidth="5"
                 animationDuration="0.75"
                 ariaLabel="rotating-lines-loading"
